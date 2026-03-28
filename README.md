@@ -1,7 +1,6 @@
----
-title: "Sinopolonica"
-subtitle: A Logographic-Latin Hybrid Writing System for Polish
----
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19299193.svg)](https://doi.org/10.5281/zenodo.19299193)
+
+# Sinopolonica: A Logographic-Latin Hybrid Writing System for Polish
 
 ## What Is This?
 
