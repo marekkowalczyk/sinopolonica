@@ -1,7 +1,7 @@
 ---
 title: "Sinopolonica: Axioms and Principles"
 subtitle: "Document 00 — Constitutional Foundation"
-author: "Marek Kowalski (ORCID: 0009-0008-3874-6736) & Claude (Anthropic)"
+author: "Marek Kowalczyk (ORCID: 0009-0008-3874-6736) & Claude (Anthropic)"
 ---
 
 ## Axioms

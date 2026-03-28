@@ -66,6 +66,6 @@ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
 
 ## Authors
 
-Conceived by Marek Kowalski
+Conceived by Marek Kowalczyk
 ([ORCID 0009-0008-3874-6736](https://orcid.org/0009-0008-3874-6736))
 & Claude (Anthropic), March 2026.
