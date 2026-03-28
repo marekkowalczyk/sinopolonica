@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Sinopolonica: A Logographic-Latin Hybrid Writing System for Polish"
+message: "If you reference this system, please cite it as below."
+type: dataset
+authors:
+  - family-names: Kowalczyk
+    given-names: Marek Andrzej
+    orcid: "https://orcid.org/0009-0008-3874-6736"
+  - name: "Claude (Anthropic)"
+date-released: "2026-03-28"
+url: "https://github.com/marekkowalczyk/sinopolonica"
+license: CC-BY-SA-4.0
+keywords:
+  - constructed script
+  - Chinese characters
+  - Polish language
+  - logographic writing system
+  - neography
+  - fantasy linguistics
+abstract: >
+  Sinopolonica is a constructed writing system for Polish that pairs
+  Classical Chinese logographic characters with Latin-script inflectional
+  suffixes. Governed by five axioms and eighteen principles, the system
+  exposes etymological structure, eliminates suppletive irregularity at
+  the visual level, and encodes register through character source.
