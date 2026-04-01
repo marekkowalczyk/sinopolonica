@@ -155,3 +155,139 @@ pronouns (nikt, nic, nigdzie, nigdy), indefinite pronouns (ktoś, coś,
 gdzieś, kiedyś), and universal pronouns (wszędzie, zawsze) are
 decomposed into their component morphemes: negator/quantifier +
 interrogative root (+ indefinite suffix where applicable).
+
+### Register Fidelity 
+
+**P19 — Appropriate registe must be preserved.**
+
+#### Statement
+
+The chosen character must match the sociolinguistic register of the
+Polish morpheme it represents.  A vulgar morpheme requires a vulgar
+character; a formal morpheme requires a formal character; a colloquial
+morpheme requires a colloquial character.  Denotational equivalence is
+necessary but not sufficient — connotational and register equivalence is
+equally required.  A character that sanitizes, elevates, or depresses the
+register of its source morpheme is a mistranslation.
+
+**Sinopolonica is a writing system, not a euphemism engine.**
+
+#### Rationale
+
+Without P19, character selection defaults to denotation alone.  A
+conscientious scribe looking up "sexual intercourse" in a Classical
+Chinese dictionary will find 媾 (gòu) — formal, literary, perfectly
+dignified — and assign it to *jebać*.  The result is a system that
+silently gentrifies the entire Polish lexicon, stripping every morpheme
+of its social charge on the way into logographic script.
+
+This is not a cosmetic defect.  Register is load-bearing information.
+When a Polish speaker chooses *jebać* over *współżyć*, the choice
+communicates stance, social context, emotional intensity, and
+relationship to the listener.  A writing system that erases these
+signals is not faithfully encoding Polish — it is encoding a sanitized
+projection of Polish.
+
+#### Canonical worked example — the 肏 / 媾 / 御 ladder
+
+Polish has (at least) three register levels for the act of sexual
+intercourse:
+
+| Polish morpheme | Register | Approximate English |
+|-----------------|----------|---------------------|
+| *jebać*         | vulgar   | fuck                |
+| *współżyć*     | formal / clinical | copulate, have intercourse |
+| *obcować* (archaic) | courtly / biblical | know (in the biblical sense) |
+
+Classical Chinese has corresponding single characters at each register
+level:
+
+##### 肏 (cào) — vulgar
+
+Composition: 入 (enter) over 肉 (flesh).  The character shows the act
+mechanically, anatomically, without euphemism.  It is genuinely vulgar in
+Chinese — used in curses (肏你妈), avoided in polite speech, absent from
+formal writing.  This is the correct character for *jebać*.
+
+##### 媾 (gòu) — formal / literary
+
+Composition: 女 (woman) + 冓 (secret, hidden).  Sometimes glossed as "to
+know a woman's secret."  The sexual content is present but veiled behind
+allusion.  Its original Classical Chinese meaning was "to marry in a
+cousin marriage to cement the relationship between families" — sex
+framed as social institution.  Appears in formal compounds: 交媾
+(jiāogòu, "to have sexual intercourse"), 媾和 (gòuhé, "to make
+peace / to copulate").  This is the correct character for *współżyć* or
+*spółkować*.
+
+##### 御 (yù) — courtly / euphemistic
+
+Primary meanings: to drive (a chariot), to manage, to govern, imperial.
+Used in Classical Chinese court records for the emperor "attending upon"
+his consorts (御妻, yùqī, "royal wives").  The sexual act is completely
+hidden behind metaphors of governance and control.  This is the correct
+character for *obcować* in its archaic, biblical sense.
+
+##### The ideographic composition mirrors the register
+
+This is not accidental.  The way each character is *built* encodes the
+register independently of the dictionary gloss:
+
+- 肏 — **shows** the act (入 + 肉: entering flesh)
+- 媾 — **alludes** to the act (女 + 冓: a woman's secret)
+- 御 — **conceals** the act entirely (governance, management)
+
+Three characters, one denotation, three entirely different relationships
+to the thing they name.  A writing system that collapses this ladder into
+a single character has lost information.
+
+#### Failure modes P19 is designed to prevent
+
+##### Upward register drift (gentrification)
+
+Assigning 媾 to *jebać* would be equivalent to glossing *jebać* as "to
+copulate" — denotatively defensible, connotationally dishonest.  The
+prefixed derivatives (散肏ać = *rozjebać*, 出肏ać = *wyjebać*) would
+lose their entire expressive charge.
+
+##### Downward register drift (vulgarization)
+
+Assigning 肏 to the biblical "Adam obcował ze swoją żoną" would read
+like vandalism — importing crudeness into a text whose entire point is
+elevated register.
+
+##### Register flattening
+
+Using a single "neutral" character (e.g.\ 交, jiāo, "to intersect")
+for all three Polish morphemes would eliminate register as a dimension
+of the writing system.  This violates the deeper design goal of
+Sinopolonica: to encode Polish *faithfully*, not merely *legibly*.
+
+#### Test battery for P19 validation
+
+The following Polish word sets can be used to verify that a Sinopolonica
+rendering preserves register.  Each row requires a *different* character:
+
+| Semantic field | Vulgar | Neutral / colloquial | Formal / literary |
+|----------------|--------|----------------------|-------------------|
+| sexual intercourse | *jebać* (肏) | *pieprzyć się* | *współżyć* (媾) |
+| eating | *żreć* | *jeść* | *spożywać* |
+| dying | *zdychać* | *umierać* | *odchodzić* / *konać* |
+| man | *facet* / *koleś* | *mężczyzna* | *pan* / *mąż* |
+| face | *morda* / *ryj* | *twarz* | *oblicze* / *lico* |
+| speaking | *pierdzielić* / *gadać* | *mówić* | *rzecz* (archaic) / *orować* |
+
+If any two items in a row receive the same character, P19 has been
+violated.
+
+#### Interaction with other principles
+
+P19 does not override axiom A1 (every semantically loaded morpheme gets
+a character) or any principle P01–P18.  It adds a *selection constraint*
+to the character-assignment process: among denotationally valid candidate
+characters, the one matching the source morpheme's register must be
+chosen.
+
+P19 applies to all morphemes — roots, derivational affixes, and
+function words that carry register information (e.g.\ *pan* vs.\ *ty*
+in address).
